@@ -1,0 +1,56 @@
+@mixin flexBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  @include flexBox();
+
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #2f3640;
+
+  .instagram-logo {
+    @include flexBox();
+
+    height: 200px;
+    width: 200px;
+    border-radius: 25%;
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+
+    .square {
+      @include flexBox();
+      
+      height: 140px;
+      width: 140px;
+      border-radius: 25%;
+      background-color: transparent;
+      border: 10px solid white;
+      position: relative;
+    }
+
+    .circle-big {
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      background-color: transparent;
+      border: 12px solid white;
+    }
+
+    .circle-small {
+      height: 15px;
+      width: 15px;
+      background-color: white;
+      border-radius: 50%;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+    }
+  }
+}

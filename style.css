@@ -1,0 +1,73 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #2f3640;
+}
+
+body .instagram-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+body .instagram-logo .square {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 140px;
+  width: 140px;
+  border-radius: 25%;
+  background-color: transparent;
+  border: 10px solid white;
+  position: relative;
+}
+
+body .instagram-logo .circle-big {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 12px solid white;
+}
+
+body .instagram-logo .circle-small {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+/*# sourceMappingURL=style.css.map */
